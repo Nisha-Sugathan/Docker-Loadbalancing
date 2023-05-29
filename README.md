@@ -67,13 +67,14 @@ http://ec2-3-109-209-162.ap-south-1.compute.amazonaws.com:8083/
 
 The instances are listening for three ports, so we need to add all the ports in the registered targets
 
+![Target_port](https://github.com/Nisha-Sugathan/Docker-Loadbalancing/assets/134600837/be0b4298-c1cc-4d2a-9732-2647e305299d)
 
 ### create a  load balancer with listener port to 443 and also add a listener to redirect to port 80
+![AWS_LB](https://github.com/Nisha-Sugathan/Docker-Loadbalancing/assets/134600837/7975b916-ffcd-40d8-af66-e48fefedf250)
+
 
 ### Add a domain in Route53 hosted zone and add A record as alias to ALB name
 
-https://dockerlb.devopstest2023.online/
-
-
+![Route 53](https://github.com/Nisha-Sugathan/Docker-Loadbalancing/assets/134600837/c43b9172-0cb3-4ca4-9dcc-199438076a2c)
 
 https://dockerlb.devopstest2023.online/
